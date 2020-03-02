@@ -24,5 +24,7 @@ divide.addEventListener("click", function() {
 })
 
 clear.addEventListener("click", function() {
-    result.innerHTML = ' ';
+    result.innerHTML = ' '; 
+    value1.value = ' ';
+    value2.value = ' ';
 })
